@@ -6,6 +6,7 @@
  * @func: pointer to a function to call for each node
  */
 
+
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 {
 	size_t level, maxlevel;

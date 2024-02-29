@@ -14,6 +14,7 @@ int binary_tree_is_avl(const binary_tree_t *tree)
 	return (btia_helper(tree, INT_MIN, INT_MAX));
 }
 
+
 /**
  * btia_helper - helper that finds if a binary tree is an avl
  * @tree: pointer to the root node of the tree

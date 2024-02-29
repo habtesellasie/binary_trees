@@ -6,6 +6,7 @@
  * Return: the min value of this tree
  */
 
+
 int successor(bst_t *node)
 {
 	int left = 0;

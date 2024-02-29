@@ -8,6 +8,7 @@
  * of the created Binary Heap NULL on failure
  */
 
+
 heap_t *array_to_heap(int *array, size_t size)
 {
 	unsigned int i;

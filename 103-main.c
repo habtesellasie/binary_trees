@@ -7,6 +7,7 @@
  *
  * Return: 0 on success, error code on failure
  */
+
 int main(void)
 {
     binary_tree_t *root;

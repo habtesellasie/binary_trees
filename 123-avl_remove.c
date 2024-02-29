@@ -6,6 +6,7 @@
  * Return: balanced factor
  */
 
+
 void bal(avl_t **tree)
 {
 	int bval;

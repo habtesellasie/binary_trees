@@ -7,6 +7,7 @@
  *
  * @n: Number to be printed
  */
+
 void print_num(int n)
 {
     printf("%d\n", n);
@@ -17,6 +18,7 @@ void print_num(int n)
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
     binary_tree_t *root;

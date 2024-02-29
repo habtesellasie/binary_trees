@@ -7,6 +7,7 @@
  * 0 if tree is NULL
  */
 
+
 size_t binary_tree_nodes(const binary_tree_t *tree)
 {
 	if (!tree || (!tree->left && !tree->right))
@@ -14,6 +15,7 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 
 	return (binary_tree_size(tree) - binary_tree_leaves(tree));
 }
+
 
 /**
  * binary_tree_size - measures the size of a binary tree

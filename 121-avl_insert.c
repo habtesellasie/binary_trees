@@ -9,6 +9,7 @@
  * Return: pointer to the new root after insertion otherwise NULL
  */
 
+
 avl_t *r_insert_node(avl_t **tree, avl_t *parent, avl_t **new, int nval)
 {
 	int bval;

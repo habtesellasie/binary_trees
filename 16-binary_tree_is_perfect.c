@@ -8,6 +8,7 @@
  *         0 if tree is NULL
  */
 
+
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t height = 0;

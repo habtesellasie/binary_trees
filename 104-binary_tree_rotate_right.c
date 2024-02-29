@@ -6,6 +6,7 @@
  * Return: Pointer node of the new node
  */
 
+
 binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree)
 {
 	binary_tree_t *pivot;

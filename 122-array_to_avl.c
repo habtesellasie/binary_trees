@@ -7,6 +7,7 @@
  * Return: a pointer to the root node of the created AVL tree NULL on failure
  */
 
+
 avl_t *array_to_avl(int *array, size_t size)
 {
 	unsigned int i;

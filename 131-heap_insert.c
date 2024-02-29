@@ -7,6 +7,7 @@
  * Return: a pointer to the created node NULL on failure
  */
 
+
 heap_t *heap_insert(heap_t **root, int value)
 {
 	heap_t *tree, *new, *flip;

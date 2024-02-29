@@ -6,6 +6,7 @@
  * Return: Height or 0 if tree is NULL
  */
 
+
 size_t tree_height(const heap_t *tree)
 {
 	size_t height_l = 0;

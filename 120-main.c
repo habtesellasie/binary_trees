@@ -7,6 +7,7 @@
  *
  * Return: A pointer to the created tree
  */
+
 binary_tree_t *basic_tree(void)
 {
     binary_tree_t *root;
